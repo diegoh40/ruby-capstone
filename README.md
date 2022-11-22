@@ -29,6 +29,11 @@ To get a local copy follow these simple example steps.
 👤 **Edith oga**
 - GitHub: [@edithoga](https://github.com/vigehi)
 
+👤 **Diego Hernández**
+- GitHub: [@diehoh40](https://github.com/diegoh40)
+- Twitter: [@Diegoart80](https://twitter.com/Diegoart80)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/diegoarturoh/)
+
 
 ## 🤝 Contributing
 
