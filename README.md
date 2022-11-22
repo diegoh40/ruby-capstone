@@ -23,7 +23,6 @@ To get a local copy follow these simple example steps.
 4.- Run the program using this command:
 `ruby main.rb`
 
-
 ## Authors
 
 👤 **Edith oga**
@@ -34,6 +33,10 @@ To get a local copy follow these simple example steps.
 - Twitter: [@Diegoart80](https://twitter.com/Diegoart80)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/diegoarturoh/)
 
+👤 **Ghislain Mitahi**
+- GitHub: [@GhislainMitahi](https://github.com/GhislainMitahi)
+- Twitter: [@GMItahi](https://https://twitter.com/GMitahi)
+- LinkedIn: [ghislainmitahi](https://linkedin.com/in/ghislain-mitahi/)
 
 ## 🤝 Contributing
 
