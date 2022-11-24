@@ -23,6 +23,23 @@ class App
               Genre.new(name: 'Dance and Electronic'), Genre.new(name: 'Other')]
     genres.each { |genre| @genres.push(genre) }
   end
+  def add_book
+    puts 'Please enter the publisher name?'
+    publisher = gets.chomp
+    puts 'Please enter the cover state of the book?'
+    cover_state = gets.chomp
+    archived = y_n { 'is it archived?:[Y or N]' }
+    puts 'Please enter publish date (yyyy/mm/dd):'
+    publish_date = gets.chomp
+    puts 'Select a label for the book from the following list:'
+    @label.each_with_index { |label, index| puts "[#{index}] #{label.title}" }
+    index = gets.chomp.to_i
+    @label[index].add_items(Book.new(Random.rand(1..10_000), archived, publish_date, publisher, cover_state))
+    puts 'Book created succesfully!'
+  end
+  def add_genre(item)
+    # @genre.add_item(item)
+  end
 
   def add_author(item)
     # @author.add_item(item)
