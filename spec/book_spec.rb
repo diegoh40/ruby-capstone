@@ -15,13 +15,13 @@ RSpec.describe Book do
 
   it 'Add label to a book' do
     label = Label.new(3, 'Classicals', 'Blue')
-    label.add_items(@book)
+    label.add_item(@book)
     expect(@book.label.color).to be == 'Blue'
   end
 
   it 'creates a JSON string' do
     label = Label.new(3, 'Classicals', 'Blue')
-    label.add_items(@book)
+    label.add_item(@book)
     json = JSON.generate(@book)
     expect(json).to be == '{"json_class":"Book","data":[4846,true,"2013/03/12","Edith","oga"]}'
   end
