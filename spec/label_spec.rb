@@ -1,5 +1,5 @@
-require_relative '../src/book'
-require_relative '../src/label'
+require_relative '../model/book'
+require_relative '../model/label'
 require 'json'
 
 RSpec.describe Label do
@@ -12,12 +12,12 @@ RSpec.describe Label do
   end
 
   it 'Add items to labels' do
-    book1 = Book.new(4846, true, '2013/03/12', 'edith', 'oga')
-    @label.add_items(book1)
+    book1 = Book.new(2022, true, '2013/03/12', 'edith', 'oga')
+    @label.add_item(book1)
     json = JSON.generate(@label)
     expect(json).to be == '{"json_class":"Label","data":[2,"Science Fictions","Red"],'         \
                           '"items":[[{"json_class":"Book","data":'\
-                          '[4846,true,"2013/03/12","Edith","oga"]}]]}'
+                          '[2022,true,"2013/03/12","Edith","oga"]}]]}'
   end
 
   it 'Create empty label from JSON' do
