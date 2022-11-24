@@ -1,7 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Capstone Ruby
-## Catalog of my things
 
 >This project we are building a small terminal program athat help you to manage your movies, books and music collection.
 
@@ -55,5 +54,13 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## 📝 License
+This project is MIT licensed.
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
