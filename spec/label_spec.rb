@@ -4,7 +4,7 @@ require 'json'
 
 RSpec.describe Label do
   before :each do
-    @label = Label.new(2, 'Science Fictions', 'Red')
+    @label = Label.new(2, 'Fantasy', 'green')
   end
 
   it 'Create an instance of Label' do
@@ -15,7 +15,7 @@ RSpec.describe Label do
     book1 = Book.new(2022, true, '2013/03/12', 'edith', 'oga')
     @label.add_item(book1)
     json = JSON.generate(@label)
-    expect(json).to be == '{"json_class":"Label","data":[2,"Science Fictions","Red"],'         
+    expect(json).to be == '{"json_class":"Label","data":[2,"Science Fictions","Red"],'
                           '"items":[[{"json_class":"Book","data":'
                           '[2022,true,"2013/03/12","Edith","oga"]}]]}'
   end
