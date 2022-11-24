@@ -39,10 +39,6 @@ class App
     puts 'Book created succesfully!'
   end
 
-  def add_genre(item)
-    # @genre.add_item(item)
-  end
-
   def add_author(item)
     # @author.add_item(item)
   end
