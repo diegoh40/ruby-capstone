@@ -23,3 +23,8 @@ class Book < Item
     true if super || cover_state == 'bad'
   end
 end
+
+# l = Book.new(cover_state: 'bad', publisher: nil)
+# # puts Date.today.to_time.year - l.publish_date.to_time.year
+# puts l.move_to_archive
+# puts l.archived
