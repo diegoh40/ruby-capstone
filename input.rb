@@ -1,6 +1,7 @@
 require './app'
 require './handler/book_handler'
 require './handler/music_handler'
+require './handler/game_handler'
 class Input
   def self.check_input(input, app)
     case input
@@ -16,7 +17,7 @@ class Input
     end
   end
 
-  def self.list_data(input, app)
+  def self.list_data(input, app) # rubocop:disable Metrics/MethodLength
     case input
     when 1
       #   List all books
@@ -26,7 +27,7 @@ class Input
       puts 'List all musics'
       MusicHandler.list_musics(app)
     when 3
-      #  List of games
+      GameHandler.list_games(app)
     when 4
       #  List all genres
       puts
@@ -37,7 +38,8 @@ class Input
       puts 'List all labels'
       app.list_labels
     when 6
-      #  List all authors
+      puts 'List of authors'
+      app.list_authors
     else
       puts 'invalid input'
     end
@@ -53,6 +55,7 @@ class Input
       MusicHandler.add_music(app)
     when 9
       #  Add a game
+      GameHandler.add_game(app)
     else
       puts 'invalid input'
     end

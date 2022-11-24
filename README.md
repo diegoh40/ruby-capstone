@@ -90,22 +90,11 @@ In this project, we created a console app that will help you to keep a record of
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy follow these simple example steps.
-
-1.- Open the terminal window and clone the repository using this command:
-`git clone https://github.com/diegoh40/ruby-capstone.git`
-
-2.- Change the directory to the ruby_catalog_capstone directory
-`cd ruby_capstone`
-3.- Install the project's dependencies by running this command:
-`bundle install`
-4.- Run the program using this command:
-`ruby main.rb`
 
 ### Prerequisites
 
 In order to run this project you need:
-
+`gem install`
 <!--
 Example command:
 

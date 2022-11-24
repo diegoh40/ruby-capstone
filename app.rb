@@ -1,4 +1,5 @@
 require './model/label'
+require './model/author'
 require './model/music'
 require './model/genre'
 class App
@@ -24,39 +25,9 @@ class App
     genres.each { |genre| @genres.push(genre) }
   end
 
-  def add_book
-    puts 'Please enter the publisher name?'
-    publisher = gets.chomp
-    puts 'Please enter the cover state of the book?'
-    cover_state = gets.chomp
-    archived = y_n { 'is it archived?:[Y or N]' }
-    puts 'Please enter publish date (yyyy/mm/dd):'
-    publish_date = gets.chomp
-    puts 'Select a label for the book from the following list:'
-    @label.each_with_index { |label, index| puts "[#{index}] #{label.title}" }
-    index = gets.chomp.to_i
-    @label[index].add_items(Book.new(Random.rand(1..10_000), archived, publish_date, publisher, cover_state))
-    puts 'Book created succesfully!'
-  end
-
-  def add_author(item)
-    # @author.add_item(item)
-  end
-
-  # Add a book
-  def create_book(book)
-    @books << book
-  end
-
-  # Label part
-  def add_label(item)
-    @labels.add_item(item)
-  end
-
-  def list_labels
-    @labels.each_with_index do |label, index|
-      puts "#{index}. [#{label.class}] - Title: #{label.title}, Color: #{label.color}"
-    end
+  def populate_author
+    authors = [Author.new('Stephan', 'King'), Author.new('Kait', 'Cham')]
+    authors.each { |author| @authors.push(author) }
   end
 
   # Add a music
@@ -72,6 +43,37 @@ class App
   def list_genres
     @genres.each_with_index do |genre, index|
       puts "#{index}. ID: #{genre.id} Name: #{genre.name}"
+    end
+  end
+
+  def add_author(item)
+    @author.add_item(item)
+  end
+
+  # Add a book
+  def create_book(book)
+    @books << book
+  end
+
+  # Add a game
+  def create_game(game)
+    @games << game
+  end
+
+  # Label part
+  def add_label(item)
+    @labels.add_item(item)
+  end
+
+  def list_labels
+    @labels.each_with_index do |label, index|
+      puts "#{index}. [#{label.class}] - Title: #{label.title}, Color: #{label.color}"
+    end
+  end
+
+  def list_authors
+    @authors.each_with_index do |author, index|
+      puts "#{index + 1} - #{author.first_name} #{author.last_name}"
     end
   end
 end
