@@ -1,12 +1,20 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Catalog of my things
+# Capstone Ruby
+## Catalog of my things
 
-A console application written in Ruby that allows you to catalog your things
+>This project we are building a small terminal program athat help you to manage your movies, books and music collection.
+
+Description the project. In this project we worked with classes, hashmaps arrays and the terminal.
 
 ## Built With
 
 - Ruby
+- VSCode
+- Git
+- GitHub
+- Rubocop
+- rspec (testing)
 
 
 ## Getting Started
@@ -48,3 +56,4 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
