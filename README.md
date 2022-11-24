@@ -1,11 +1,5 @@
 <a name="Capstone Ruby"></a>
 
-
->This project we are building a small terminal program athat help you to manage your movies, books and music collection.
-
-Description the project. In this project we worked with classes, hashmaps arrays and the terminal.
-
-
 <div align="center">
 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
@@ -20,7 +14,7 @@ Description the project. In this project we worked with classes, hashmaps arrays
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With]
+  - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
@@ -41,56 +35,52 @@ Description the project. In this project we worked with classes, hashmaps arrays
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 CAPSTONE RUBY <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+>This project we are building a small terminal program athat help you to manage your movies, books and music collection.
 
-**[your_project__name]** is a...
 
-## 🛠 Built With <a name="built-with"></a>
+**Catalog of my things** 
+
+## 🛠 Built With <a name="built-with">Ruby</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+In this project, we created a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything will be based on the UML class diagram presented below. The data stored in JSON files but we prepared a database with tables structure analogical for the program's class structure.
 
 <details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
+  <summary>- Ruby</summary>
+  
+</details>
+<details>
+  <summary>- VSCode</summary>
+ 
 </details>
 
 <details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
+<summary>- Git</summary>
 
+</details>
 <details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
+<summary>- GitHub</summary>
+
+</details>
+<details>
+<summary>- Rubocop</summary>
+
+</details>
+<details>
+<summary>- Rubocop</summary>
+
 </details>
 
 <!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> Explanation of project.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
@@ -127,7 +117,7 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
-
+https://github.com/diegoh40/ruby-capstone.git
 <!--
 Example commands:
 
@@ -140,7 +130,7 @@ Example commands:
 ### Install
 
 Install this project with:
-
+`bundle install`
 <!--
 Example command:
 
@@ -153,7 +143,7 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
-
+`ruby main.rb`
 <!--
 Example command:
 
@@ -165,7 +155,7 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
-
+`rspec ./spec/[name of file]`
 <!--
 Example command:
 
@@ -174,25 +164,13 @@ Example command:
 ```
 --->
 
-### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Edith oga**
 - GitHub: [@edithoga](https://github.com/vigehi)
@@ -210,17 +188,6 @@ Example:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
