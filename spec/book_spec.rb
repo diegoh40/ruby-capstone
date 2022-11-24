@@ -23,11 +23,11 @@ RSpec.describe Book do
     label = Label.new(3, 'Classicals', 'Blue')
     label.add_item(@book)
     json = JSON.generate(@book)
-    expect(json).to be == '{"json_class":"Book","data":[4846,true,"2013/03/12","Edith","oga"]}'
+    expect(json).to be == '{"json_class":"Book","data":[2022,true,"2013/03/12","Edith","oga"]}'
   end
 
   it 'creates instance from JSON string' do
-    json = '{"json_class":"Book","data":[4846,true,"2013/03/12","Edith","oga"]}'
+    json = '{"json_class":"Book","data":[2022,true,"2013/03/12","Edith","oga"]}'
     new_book = JSON.parse(json, create_additions: true)
     expect(new_book).to be_an_instance_of(Book)
   end
