@@ -46,7 +46,7 @@ Lint/RaiseException:
 Lint/StructNewOverride:
   Enabled: false
 Layout/EndOfLine:
-  EnforcedStyle: lf
+  EnforcedStyle: crlf
 Style/HashEachMethods:
   Enabled: false
 Style/HashTransformKeys:
