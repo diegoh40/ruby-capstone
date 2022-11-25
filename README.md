@@ -82,7 +82,7 @@ In this project, we created a console app that will help you to keep a record of
 
 > Explanation of project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Video presentation.](https://drive.google.com/file/d/116W66qPCqOF5hDHFeEHye5RtY-zbJzmY/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
