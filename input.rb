@@ -17,7 +17,7 @@ class Input
     end
   end
 
-  def self.list_data(input, app) # rubocop:disable Metrics/MethodLength
+  def self.list_data(input, app)
     case input
     when 1
       #   List all books
