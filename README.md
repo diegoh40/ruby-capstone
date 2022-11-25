@@ -74,10 +74,6 @@ In this project, we created a console app that will help you to keep a record of
 
 </details>
 
-<!-- Features -->
-
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Explanation of project.
