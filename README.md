@@ -49,12 +49,11 @@
 In this project, we created a console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games. Everything will be based on the UML class diagram presented below. The data stored in JSON files but we prepared a database with tables structure analogical for the program's class structure.
 
 <details>
-  <summary>- Ruby</summary>
-  
+  <summary>- Ruby</summary>  
 </details>
+
 <details>
-  <summary>- VSCode</summary>
- 
+  <summary>- VSCode</summary> 
 </details>
 
 <details>
@@ -71,7 +70,6 @@ In this project, we created a console app that will help you to keep a record of
 </details>
 <details>
 <summary>- Rubocop</summary>
-
 </details>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
@@ -112,7 +110,6 @@ Example commands:
 --->
 
 ### Install
-
 Install this project with:
 `bundle install`
 <!--
@@ -140,15 +137,6 @@ Example command:
 
 To run tests, run the following command:
 `rspec ./spec/[name of file]`
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
